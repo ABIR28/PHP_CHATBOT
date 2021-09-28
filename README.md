@@ -1,4 +1,4 @@
-# PHP_CHATBOT
+# _CHATBOT
 <h3 align="center">An ChatBot  using HTML CSS and javaScript</h3>
 <br>
 <h3>Software needed </h3>
