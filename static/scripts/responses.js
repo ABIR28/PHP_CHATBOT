@@ -9,11 +9,15 @@ function getBotResponse(input) {
     }
 
     // Simple responses
-    if (input == "hello") {
+    if (input == "hello" || input == "hi") {
         return "Hello there!";
-    } else if (input == "goodbye") {
-        return "Talk to you later!";
+    }else if (input == "how are you" || input == "What are you doing") {
+        return "I am Fine :)";
+    }else if (input == "goodbye") {
+        return " Ok! Talk to you later!";
     } else {
         return "Try asking something else!";
     }
+
+    // Default Response
 }
