@@ -14,8 +14,8 @@ body{
 }
 label{
   position: absolute;
-  right: 45%;
-  bottom: 40%;
+  right: 50%;
+  bottom: 50%;
   height: 55px;
   width: 55px;
   background: -webkit-linear-gradient(left, #a445b2, #fa4299);
@@ -61,7 +61,7 @@ label i.fas{
 }
 #click:checked ~ .wrapper{
   opacity: 1;
-  bottom: 85px;
+  bottom: 20%;
   pointer-events: auto;
 }
 .wrapper .head-text{
@@ -164,5 +164,5 @@ form .textarea textarea:focus::placeholder{
   font-weight: 500;
 }
 .wrapper{
-  right: 10%;
+  right: 15%;
 }
